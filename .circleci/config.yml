@@ -54,15 +54,16 @@ jobs:
             export NAME=helmogey
             export VERSION=1.0
             export Dockerfile=Dockerfile
+            export PNAME = ${DOCKER_USER}/clouddevopscapstonegreen
             docker build -f ${Dockerfile}  -t ${NAME} .
             docker tag ${NAME} ${NAME}:${VERSION}
             docker tag ${NAME} ${PNAME}
             docker tag ${NAME} ${PNAME}:${VERSION}
             docker push ${PNAME}
             
-            NAME=${DOCKER_USER}/clouddevopscapstonegreen 
-            Dockerfile=Dockerfilegreen 
-            PNAME=${DOCKER_USER}/clouddevopscapstoneblue
+            export NAME=${DOCKER_USER}/clouddevopscapstonegreen 
+            export Dockerfile=Dockerfilegreen 
+            export PNAME=${DOCKER_USER}/clouddevopscapstoneblue
             docker build -f ${Dockerfile}  -t ${NAME} .
             docker tag ${NAME} ${NAME}:${VERSION}
             docker tag ${NAME} ${PNAME}
