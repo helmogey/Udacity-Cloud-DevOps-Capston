@@ -1,4 +1,4 @@
-FROM httpd
+FROM httpd:latest
 
 ## Step 1:
 RUN rm /var/www/html/index.html
