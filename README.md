@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/amsalama/cloud-devops-capstone/tree/main.svg?style=svg)](https://circleci.com/gh/amsalama/cloud-devops-capstone/tree/main)
+[![CircleCI](https://circleci.com/gh/helmogey/cloud-devops-capstone/tree/main.svg?style=svg)](https://circleci.com/gh/amsalama/cloud-devops-capstone/tree/main)
 # cloud-devops-capstone
 > In this project, I applied my skills and knowledge which was developed throughout the Cloud DevOps Nanodegree program.
 
@@ -24,4 +24,11 @@
 * index-green.html : Web site Index file for blue docker image.
 ```
 ## Run the project:
-using Circleci
+Clone the project
+Log in to the AWS console and create a user progromatically, web console and download the access key and secret access key
+create a user in dockerhub
+Log in to the circle ci 
+setup the project from the circle ci
+Add variables of AWS access secret key and dockerhun username and password
+
+ 
