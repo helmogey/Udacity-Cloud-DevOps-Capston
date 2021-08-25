@@ -1,4 +1,4 @@
-FROM httpd:latest
+FROM httpd:2.4.48
 
 ## Step 1:
 RUN rm /var/www/html/index.html
